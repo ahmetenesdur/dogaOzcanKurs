@@ -6,7 +6,7 @@ const provider = new HDWalletProvider(mnemonic,"infura bağlantı linki", 9);
 const web3 = new Web3(provider);
 let itemCount = 0;
 
-
+let a
 // Kontrat ABI
 let contract = new web3.eth.Contract([
         {
